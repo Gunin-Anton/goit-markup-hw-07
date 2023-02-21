@@ -369,7 +369,7 @@ body {
 }
 
 .mobile-nav-container {
-  margin-bottom: 150px;
+  margin-bottom: 170px;
 }
 
 .mobile-menu-list {
@@ -438,11 +438,12 @@ body {
 
 .mobile-social-container {
   display: inline-block;
+  /* max-width: 328px; */
 }
 
 .mobile-icon-list {
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   /* justify-content: space-evenly; */
   gap: 56px;
 }
@@ -1141,6 +1142,12 @@ body {
 
 .footer-logo-social {
   margin-right: 80px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-logo-social {
+    margin-right: 0;
+  }
 }
 
 @media screen and (min-width: 768px) {
